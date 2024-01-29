@@ -7,7 +7,7 @@ app = FastAPI()
 @app.post("/")
 async def stress_cpu():
     # Run "stress_cpu.py" in a separate process
-    subprocess.Popen(["python", "stress_cpu.py"])
+    subprocess.Popen(["python3", "stress_cpu.py"])
     return {"message": "Stressing CPU in a separate process"}
 
 @app.get("/")
