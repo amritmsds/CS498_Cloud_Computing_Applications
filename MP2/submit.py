@@ -4,14 +4,14 @@ import json
 ''' Fill in the following information '''
 # General information
 YOUR_EMAIL = "amritk2@illinois.edu" # <put your coursera account email>,
-YOUR_SECRET = "sJ7YN5MQ7FzGFTja" # <put your secret token from coursera>
+YOUR_SECRET = "KO94oaPZ88ofgGgC" # <put your secret token from coursera>
 
 # Section 1
 IP_ADDRESS1 = "18.212.222.227:8081" # <put your first EC2 instance's IP address:port> http://18.212.222.227:8081/
-IP_ADDRESS2 = "54.210.63.164:8081" # <put your second instance's IP address:port>
-YOUR_LOAD_BALANCER1 = "http://mp2lb1-240253717.us-east-1.elb.amazonaws.com:8081/" # <put your load_balancer address for section 1>
+IP_ADDRESS2 = "52.90.127.228:8081" # <put your second instance's IP address:port>
+YOUR_LOAD_BALANCER1 = "mp2lb1-240253717.us-east-1.elb.amazonaws.com:8081" # <put your load_balancer address for section 1>
 # Section 2
-YOUR_LOAD_BALANCER2 = "" # <put your load_balancer address for section 2>, 
+YOUR_LOAD_BALANCER2 = "mp2asg6-lb6-806741852.us-east-1.elb.amazonaws.com:8081"#"http://mp2autoscalinggroup3loadbalancer-55694308.us-east-1.elb.amazonaws.com:8081/" # <put your load_balancer address for section 2>,
 
 ''' Don't change the following '''
 url = "https://ekwygde36j.execute-api.us-east-1.amazonaws.com/alpha/execution"

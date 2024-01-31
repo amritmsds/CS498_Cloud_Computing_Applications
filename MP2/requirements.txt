@@ -3,3 +3,4 @@ requests
 jsonify
 fastapi
 uvicorn
+Pydantic
